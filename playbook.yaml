@@ -11,4 +11,4 @@
   - name: Apply K8s YAML file
     shell: kubectl apply -f /home/ubuntu/Desktop/k8s-bundle-prod.yaml
   - name: Running docker container
-    shell: docker run -p 80:80 -d --name notebook mrpapdiamond/micro1
+    shell: docker run -p 3000:80 -d --name notebook mrpapdiamond/micro1
